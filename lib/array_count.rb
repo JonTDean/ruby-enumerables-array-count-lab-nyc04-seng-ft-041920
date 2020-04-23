@@ -14,7 +14,7 @@ def count_empty_strings(array)
   i = 0
   
   array.each do | count |
-    if count.class == " "
+    if count.class == ""
       i += 1
     end
   end
